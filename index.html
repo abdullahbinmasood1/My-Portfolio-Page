@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a593af9525.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <h2 class="logo">MyPortfolio</h2>
+      <ul class="nav-links">
+        <li><a href="#home" class="hover-link">Home</a></li>
+        <li><a href="#about" class="hover-link">About</a></li>
+        <li><a href="#projects" class="hover-link">Projects</a></li>
+        <li><a href="#contact" class="hover-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="Abdullah.jpg"
+        alt="Profile" class="hero-img">
+      <h1>Hi, I'm Abdullah</h1>
+      <p class="tagline">Web Developer | Frontend Enthusiast</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate web developer who loves creating modern, responsive websites.
+      Skilled in HTML, CSS, and JavaScript with growing experience in backend and APIs.
+      I enjoy solving problems and building projects that make life easier.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card"
+        style="background-image:url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=600&fit=crop');">
+        <div class="overlay">Portfolio Website</div>
+      </div>
+
+      <div class="project-card"
+        style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop');">
+        <div class="overlay">Landing Page</div>
+      </div>
+
+      <div class="project-card"
+        style="background-image:url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop');">
+        <div class="overlay">E-commerce UI</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact container">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="primary-btn">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="#" class="hover-link"><i class="fa-brands fa-github"></i></a>
+      <a href="#" class="hover-link"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" class="hover-link"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 MyPortfolio. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</html>
